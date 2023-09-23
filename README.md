@@ -10,17 +10,3 @@ This software has not yet been tested to run on Linux
 
 ## Disclaimer
 By choosing to use this software, you do so at your own discretion, and we want to make it clear that we are not responsible for any possible issues or data loss it may incur. It's a good practice to back up your data before using the software. Your use of this software signifies your agreement that we are not liable for any consequences that may arise. Rest assured, we are actively working to enhance the software for a better user experience.
-
-
-## Compilation
-
-Before you can compile this software, you need to setup the Flutter environment on Windows 10 or Windows 11.
-
-Generating the locale keys:
-```
-dart run easy_localization:generate -S assets/langs -f keys -o codegen_keys.g.dart
-```
-Compiling:
-```
-flutter build windows --release
-```
